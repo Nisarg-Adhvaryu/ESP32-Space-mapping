@@ -48,16 +48,16 @@ ESP32-Space-Mapping
 │   └── Arduino_IDE_code.ino
 │
 ├── Python/
-│   ├── 2D plot.py
-│   ├── 3D PointCloud.py
-│   ├── 3D DepthSurface.py
-│   └── 3D DepthSurface AccumulatedMap.py
+│   ├── 2d_occupancy_map.py
+│   ├── 3d_point_cloud.py
+│   ├── 3d_depth_surface.py
+│   └── 3d_accumulated_map.py
 │
 ├── Assets/
-│   ├── 2d_mapping.mp4
-│   ├── point_cloud.mp4
-│   ├── depth_surface.mp4
-│   └── accumulated_map.mp4
+│   ├── 2d_occupancy_map.mp4
+│   ├── 3d_point_cloud.mp4
+│   ├── 3d_depth_surface.mp4
+│   └── 3d_accumulated_map.mp4
 │
 └── README.md
 ```
@@ -87,10 +87,12 @@ Python Visualization
 
 ## Demonstrations
 
-- 🎥 [2D Occupancy Mapping](Assets/2d_mapping.mp4)
-- 🎥 [3D Point Cloud Visualization](Assets/point_cloud.mp4)
-- 🎥 [3D Depth Surface Visualization](Assets/depth_surface.mp4)
-- 🎥 [Accumulated 3D Environment Mapping](Assets/accumulated_map.mp4)
+| Visualization | Demo |
+|--------------|------|
+| 2D Occupancy Map | [▶️ Watch](Assets/2d_occupancy_map.mp4) |
+| 3D Point Cloud | [▶️ Watch](Assets/3d_point_cloud.mp4) |
+| 3D Depth Surface | [▶️ Watch](Assets/3d_depth_surface.mp4) |
+| Accumulated 3D Mapping | [▶️ Watch](Assets/3d_accumulated_map.mp4) |
 
 ---
 
